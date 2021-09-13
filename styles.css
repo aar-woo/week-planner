@@ -117,17 +117,25 @@ textarea {
 }
 
 table {
-  border: none;
+  /* border: none; */
+  border: 1px solid black;
   border-collapse: collapse;
   width: 100%;
 }
 
-table td {
+table td,
+table th {
   border-left: 1px solid #000;
 }
+
 th {
   text-align: left;
 }
+
 tbody tr:nth-child(odd) {
   background-color: red;
+}
+
+td:nth-child(odd) {
+  width: 20%;
 }

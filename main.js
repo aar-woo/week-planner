@@ -28,3 +28,18 @@ function submitData(event) {
   console.log('data', data);
 }
 $ContainerModal.addEventListener('submit', submitData);
+
+{ /* <tr>
+  <td>11:00am</td>
+  <td>wake up</td>
+</tr> */ }
+
+// function createEvent(event) {
+//   var tableRow = document.createElement('tr');
+//   var timeData = document.createElement('td');
+//   var descriptionData = document.createElement('td');
+//   timeData.textContent =
+//   tableRow.setAttribute('data-view', )
+//   tableRow.setAttribute('id')
+//   var
+// }
