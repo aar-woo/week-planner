@@ -34,12 +34,12 @@ $ContainerModal.addEventListener('submit', submitData);
   <td>wake up</td>
 </tr> */ }
 
-// function createEvent(event) {
-//   var tableRow = document.createElement('tr');
-//   var timeData = document.createElement('td');
-//   var descriptionData = document.createElement('td');
-//   timeData.textContent =
-//   tableRow.setAttribute('data-view', )
-//   tableRow.setAttribute('id')
-//   var
-// }
+function createEvent(eventObj) {
+  var tableRow = document.createElement('tr');
+  var timeData = document.createElement('td');
+  var descriptionData = document.createElement('td');
+  timeData.textContent = event
+  tableRow.setAttribute('data-view', )
+  tableRow.setAttribute('id')
+  var
+}
