@@ -45,3 +45,23 @@ body {
 .justify-center {
   justify-content: center;
 }
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.modal-container {
+  border: solid;
+}
+
+.daysOf {
+  max-width: 600px;
+}
+
+.auto {
+  width: auto;
+}

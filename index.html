@@ -1,66 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Week Planner</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="container">
-    <div data-view="entry-form">
-      <form>
-        <div class="row align-text-center">
-          <div class="column-full">
-            <h1>Weekly Planner</h1>
-            <div class="row"></div>
-            <button class="add-btn pointer">Add Entry</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week Planner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div data-view="entry-form">
+        <form>
+          <div class="row align-text-center">
+            <div class="column-full">
+              <h1>Weekly Planner</h1>
+              <div class="row"></div>
+              <button class="add-btn pointer">Add Entry</button>
+            </div>
           </div>
-        </div>
-      </form>
-    </div>
-  </div>
-  <div class="modal-container">
-  <div class="modal-content">
-
-    <div class="row align-text-center">
-      <div class="column-full ">
-        <h1>Add Entry</h1>
+        </form>
       </div>
     </div>
-    <div class="row justify-center">
-      <form>
-        <div>
-          <select name="days" id="days">
-            <option value="">Day of week</option>
-            <option value="Sunday">Sunday</option>
-            <option value="Monday">Monday</option>
-            <option value="Tuesday">Tuesday</option>
-            <option value="Wednesday">Wednesday</option>
-            <option value="Thursday">Thursday</option>
-            <option value="Friday">Friday</option>
-            <option value="Saturday">Saturday</option>
-          </select>
-          <input type="time" id="time" name="time">
+    <div class="modal-container">
+      <div class="modal-content">
+        <div class="row align-text-center">
+          <div class="column-full">
+            <h1>Add Entry</h1>
+          </div>
         </div>
-        <div class="column-full">
-          <textarea placeholder="Description"></textarea>
+        <div class="row justify-center">
+          <form>
+            <div class="daysOf row flex-start">
+              <select name="days" id="days">
+                <option value="">Day of week</option>
+                <option value="Sunday">Sunday</option>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+              </select>
+              <input type="time" id="time" name="time" />
+            </div>
+            <div class="row">
+              <div class="column-full">
+                <textarea placeholder="Description"></textarea>
+              </div>
+            </div>
+            <div class="row flex-end">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
         </div>
-        <div class="row">
-          <button type="submit">Submit</button>
-        </div>
-
-      </form>
-
+      </div>
     </div>
 
-  </div>
-
-  </div>
-
-  <script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
