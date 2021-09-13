@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-half {
+  width: 50%;
+}
+
+.align-text-center {
+  text-align: center;
+}
+
+.add-btn {
+  padding: 0.5rem 2rem;
+}
+
+.add-btn:hover {
+  background-color: #95bcf1;
+}
+
+.add-btn:active {
+  transform: translateY(0.2rem);
+}
+
+.pointer {
+  cursor: pointer;
+}
