@@ -31,18 +31,30 @@
         <h1>Add Entry</h1>
       </div>
     </div>
-    <div class="row">
-      <select name="days" id="days">
-        <option value="">Day of week</option>
-        <option value="Sunday">Sunday</option>
-        <option value="Monday">Monday</option>
-        <option value="Tuesday">Tuesday</option>
-        <option value="Wednesday">Wednesday</option>
-        <option value="Thursday">Thursday</option>
-        <option value="Friday">Friday</option>
-        <option value="Saturday">Saturday</option>
-      </select>
-      <input type="time" id="time" name="time">
+    <div class="row justify-center">
+      <form>
+        <div>
+          <select name="days" id="days">
+            <option value="">Day of week</option>
+            <option value="Sunday">Sunday</option>
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+          </select>
+          <input type="time" id="time" name="time">
+        </div>
+        <div class="column-full">
+          <textarea placeholder="Description"></textarea>
+        </div>
+        <div class="row">
+          <button type="submit">Submit</button>
+        </div>
+
+      </form>
+
     </div>
 
   </div>
