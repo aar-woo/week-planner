@@ -26,14 +26,14 @@
         </form>
       </div>
     </div>
-    <div class="modal-container">
+    <div class="modal-container overlay">
       <div class="modal-content">
         <div class="row align-text-center">
           <div class="column-full">
             <h1>Add Entry</h1>
           </div>
         </div>
-        <div class="row justify-center">
+        <!-- <div class="row"> -->
           <form>
             <div class="daysOf row flex-start">
               <select name="days" id="days">
@@ -46,18 +46,18 @@
                 <option value="Friday">Friday</option>
                 <option value="Saturday">Saturday</option>
               </select>
-              <input type="time" id="time" name="time" />
+              <input class="margin-l" type="time" id="time" name="time" />
             </div>
-            <div class="row">
+            <div class="row justify-center">
               <div class="column-full">
-                <textarea placeholder="Description"></textarea>
+                <textarea class="column-full" placeholder="Description"></textarea>
               </div>
             </div>
             <div class="row flex-end">
               <button type="submit">Submit</button>
             </div>
           </form>
-        </div>
+        <!-- </div> -->
       </div>
     </div>
 
