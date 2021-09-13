@@ -106,16 +106,21 @@ textarea {
   display: none;
 }
 
-.weeksBtn{
+.weeksBtn {
   height: 7rem;
   width: 7rem;
   margin-bottom: 1rem;
 }
 
-.justify-space-between{
+.justify-space-between {
   justify-content: space-between;
 }
 
-.paddingWeekBtn{
+.paddingWeekBtn {
   padding: 0 7rem;
+}
+
+table {
+  border: solid 1px black;
+  width: 100%;
 }
