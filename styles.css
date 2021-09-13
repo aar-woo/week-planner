@@ -105,3 +105,17 @@ textarea {
 .hidden {
   display: none;
 }
+
+.weeksBtn{
+  height: 7rem;
+  width: 7rem;
+  margin-bottom: 1rem;
+}
+
+.justify-space-between{
+  justify-content: space-between;
+}
+
+.paddingWeekBtn{
+  padding: 0 7rem;
+}

@@ -24,11 +24,7 @@ function submitData(event) {
     description: $addData.elements.description.value
   };
   var selectedDay = $addData.elements.days.value.toLowerCase();
-  console.log('obj', obj);
-  console.log('data.selectedDay', data[selectedDay]);
-  data[selectedDay].push();
-  data[selectedDay].push();
-
+  data[selectedDay].push(obj);
   console.log('data', data);
 }
 $ContainerModal.addEventListener('submit', submitData);
