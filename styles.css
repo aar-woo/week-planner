@@ -30,15 +30,17 @@ body {
   padding: 0.5rem 2rem;
 }
 
-.submit-btn{
+.submit-btn {
   padding: 0.1rem 0.7rem;
 }
 
-.add-btn:hover,.submit-btn:hover {
+.add-btn:hover,
+.submit-btn:hover {
   background-color: #95bcf1;
 }
 
-.add-btn:active,.submit-btn:hover {
+.add-btn:active,
+.submit-btn:hover {
   transform: translateY(0.2rem);
 }
 
@@ -100,6 +102,6 @@ textarea {
   height: 6rem;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
