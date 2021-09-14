@@ -33,6 +33,7 @@ function submitData(event) {
 $ContainerModal.addEventListener('submit', submitData);
 
 function createEvent() {
+  console.log('HELLO', data.view.length);
 
   var tableRow = document.createElement('tr');
   var timeData = document.createElement('td');

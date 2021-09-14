@@ -4,6 +4,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  background-image: url("./images/Lights-Finland-GIF-Find-Share-on-GIPHY.gif");
 }
 
 .container {
@@ -28,6 +29,7 @@ body {
 
 .add-btn {
   padding: 0.5rem 2rem;
+  border-radius: 5px;
 }
 
 .submit-btn {
@@ -42,6 +44,7 @@ body {
 .add-btn:active,
 .submit-btn:hover {
   transform: translateY(0.2rem);
+  transform: rotate(1turn);
 }
 
 .pointer {
@@ -106,6 +109,7 @@ textarea {
   height: 7rem;
   width: 7rem;
   margin-bottom: 1rem;
+  border-radius: 5px;
 }
 
 .justify-space-between {
@@ -117,7 +121,6 @@ textarea {
 }
 
 table {
-  /* border: none; */
   border: 1px solid black;
   border-collapse: collapse;
   width: 100%;
@@ -130,12 +133,38 @@ table th {
 
 th {
   text-align: left;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 tbody tr:nth-child(odd) {
-  background-color: red;
+  background-color: rgba(239, 124, 218, 0.7);
+}
+tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 td:nth-child(odd) {
   width: 20%;
+}
+.white {
+  color: white;
+}
+img {
+  width: 100%;
+}
+.meet {
+  background-image: url(./images/meet.png);
+  object-fit: fill;
+}
+.aaron {
+  background-image: url(./images/aaron.png);
+}
+.jc {
+  background-image: url(./images/jc.png);
+}
+.kenny {
+  background-image: url(./images/kenny.png);
+}
+.paddingWeekBtn > button:hover {
+  transform: rotate(1turn);
 }
